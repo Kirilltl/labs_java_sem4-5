@@ -1,0 +1,12 @@
+package:
+cd C:\Users\79112\OneDrive\Рабочий стол
+javac techprog\lab3\matrixes\*.java techprog\lab3\Main.java
+java techprog.lab3.Main
+
+cd C:\Users\79112\OneDrive\Рабочий стол
+javac techprog\las\matrixes\*.java techprog\las\Main.java
+java techprog.las.Main
+
+cd C:\Users\79112\OneDrive\Рабочий стол\techprog
+javac enccon\l6\*java
+java enccon.l6.EncodingConverter in6.txt out6.txt utf8 utf16

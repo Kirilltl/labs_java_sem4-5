@@ -1,0 +1,26 @@
+////////PhoneBook///////
+cd /opt/tomcat/webapps/PhoneBook/
+javac -cp ../../lib/servlet-api.jar:src/ src/*.java -d WEB-INF/classes
+cd 
+cd /opt/tomcat/bin
+bash ./catalina.sh start
+bash ./catalina.sh stop
+	http://localhost:8080/PhoneBook/servlet/PhoneBook
+
+////////Servpluslist///////
+cd /opt/tomcat/webapps/Servpluslist/
+javac -cp ../../lib/servlet-api.jar:src/ src/*.java -d WEB-INF/classes
+cd 
+cd /opt/tomcat/bin
+bash ./catalina.sh start
+bash ./catalina.sh stop
+	http://localhost:8080/Servpluslist/list
+
+////////Boardserv///////
+cd /opt/tomcat/webapps/Boardserv/
+javac -cp ../../lib/servlet-api.jar:src/ src/*.java -d WEB-INF/classes
+cd 
+cd /opt/tomcat/bin
+bash ./catalina.sh start
+bash ./catalina.sh stop
+	http://localhost:8080/Boardserv/
